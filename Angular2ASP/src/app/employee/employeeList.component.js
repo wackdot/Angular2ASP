@@ -7,17 +7,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = /** @class */ (function () {
-    function AppComponent() {
-        this.name = 'Tom';
+var EmployeeListComponent = /** @class */ (function () {
+    function EmployeeListComponent() {
     }
-    AppComponent = __decorate([
+    EmployeeListComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n                <list-employee></list-employee>\n               "
+            selector: 'list-employee',
+            templateUrl: 'app/employee/employeeList.component.html',
+            styleUrls: ['app/employee/employeeList.component.css'],
         })
-    ], AppComponent);
-    return AppComponent;
+    ], EmployeeListComponent);
+    return EmployeeListComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.EmployeeListComponent = EmployeeListComponent;
+//# sourceMappingURL=employeeList.component.js.map

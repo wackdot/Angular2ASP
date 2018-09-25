@@ -1,11 +1,11 @@
-import { Component } from "@angular/core"
+import { Component } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { FormsModule } from "@angular/forms";
 
 @Component({
     selector: 'my-app',
     template: `
-               Name: <input [value]='name' (input)='name=$event.target.value'/>
-               <br/>
-               You entered: {{ name }}
+                <list-employee></list-employee>
                `
 })
 export class AppComponent {
